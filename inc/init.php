@@ -1,5 +1,12 @@
 <?php
 
+// ########## DECLARATION DE LA SESSION ##########
+// C'est obligatoire de déclarer au tout début de notre site
+
+    session_start();
+
+// Fin de la déclaration de la session
+
     try {
 
         $type_bdd   = "mysql";
